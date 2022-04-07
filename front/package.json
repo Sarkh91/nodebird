@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "next",
     "build": "cross-env ANALYZE=true NODE_ENV=production next build",
-    "start": "cross-env NODE_ENV=production next start -p 3060"
+    "start": "cross-env NODE_ENV=production next start -p 80"
   },
   "author": "Sarkh91",
   "license": "ISC",
@@ -22,6 +22,7 @@
     "immer": "^9.0.12",
     "next": "^9.5.5",
     "next-redux-wrapper": "^6.0.2",
+    "pm2": "^5.2.0",
     "prop-types": "^15.8.1",
     "react": "^16.14.0",
     "react-dom": "^16.14.0",
