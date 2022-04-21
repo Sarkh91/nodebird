@@ -33,7 +33,7 @@ db.sequelize.sync()
 
 let origin;
 if (process.env.NODE_ENV === 'production'){
-    origin = ['http://localhost:3000', 'nodebird.com', 'http://13.125.199.145'];
+    origin = ['http://localhost:3000', 'nodebird.com', 'http://52.79.170.196'];
 } else {
     origin = true
 }
